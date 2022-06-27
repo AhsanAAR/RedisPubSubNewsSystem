@@ -21,5 +21,5 @@ io.on("connection", (socket) => {
 
 http.listen(8000, function(){
     console.log('listening on *:8000');
-    console.log('Hello g how are you!');
 });
+
