@@ -16,10 +16,12 @@ io.on("connection", (socket) => {
             console.log(message); // 'message'
             io.emit('article', message);
         });
+
+        
+
     })();
 })
 
 http.listen(8000, function(){
     console.log('listening on *:8000');
 });
-
