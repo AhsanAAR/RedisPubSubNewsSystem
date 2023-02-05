@@ -18,7 +18,6 @@ io.on('connection', function(client) {
     client.on('sub', function(data){
         console.log('sub request for topic ' + data);
         redis_client.subscribe(data, (message) => {
-            // console.log(typeof message);
             console.log(message);
             client.emit("article", message)
         });
