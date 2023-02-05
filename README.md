@@ -9,3 +9,7 @@ The publisher is a Python script that uses our [dataset](https://www.kaggle.com/
 The system diagram for this project is shown below.
 
 ![image](https://user-images.githubusercontent.com/39828020/216795743-311fcfc2-4e6d-4e9e-84a3-4e0639664122.png)
+
+To run the project, simple run the node subscriber server by `node new_app.js`. Then just open the `index.html` file and subscribe to any topics you want. You can also open the `index.html` file on multiple tabs and each one will be treated as a separate subscriber. 
+
+Then just run `python publisher.py` and specify the name of the news article that you wanna publish and it should show up to all the clients that have subscribed to the topic for that article.
