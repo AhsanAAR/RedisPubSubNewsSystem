@@ -1,5 +1,7 @@
 # RedisPubSubNewsSystem
 
+Group project for Distributed and Parallel Systems with [Affan Wahid](https://www.linkedin.com/in/muhammad-affan-wahid/), Azfar Razzaq and [Mubashir Rehman](https://www.linkedin.com/in/mubashir-rehman/).
+
 A news publishing system based on the Redis pub/sub implementation.
 
 The frontend `index.html` uses sockets library to connect with the node backend. The backend is basically the subscriber that is toggled using the frontend. Once a subscription is made, a subscription is made for that specific topic. 
